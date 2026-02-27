@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purrsonality — Which Cat Are You?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=Caveat:wght@600;700&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐱</text></svg>">
+</head>
+<body>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+        </div>
+        <nav class="nav">
+            <span class="nav-logo">🐾 Purrsonality</span>
+            <div class="nav-links">
+                <a href="#breeds">Meet The Cats</a>
+                <a href="#quiz" class="nav-cta">Take The Quiz</a>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="hero-title-line">Every cat has a</span>
+                <span class="hero-title-big">Purrsonality</span>
+                <span class="hero-title-sub">What's yours?</span>
+            </h1>
+            <p class="hero-desc">Discover which cat breed matches your soul. Answer 10 questions. Meet your feline alter ego. Prepare for the truth.</p>
+            <a href="#quiz" class="hero-btn">
+                <span>Find My Cat</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+            </a>
+            <div class="hero-scroll-hint">
+                <span>scroll to explore</span>
+                <div class="scroll-line"></div>
+            </div>
+        </div>
+        <div class="hero-cats">
+            <div class="floating-cat cat-1">😺</div>
+            <div class="floating-cat cat-2">😸</div>
+            <div class="floating-cat cat-3">🐱</div>
+            <div class="floating-cat cat-4">😻</div>
+            <div class="floating-cat cat-5">🙀</div>
+        </div>
+    </section>
+
+    <!-- BREEDS -->
+    <section id="breeds" class="breeds">
+        <div class="section-header">
+            <span class="section-tag">Meet the cats</span>
+            <h2 class="section-title">The Lineup</h2>
+            <p class="section-desc">Each one has a story. Each one might be you.</p>
+        </div>
+        <div class="breeds-grid" id="breeds-grid">
+            <!-- Filled by JS -->
+        </div>
+    </section>
+
+    <!-- QUIZ -->
+    <section id="quiz" class="quiz">
+        <div class="quiz-bg-shapes">
+            <div class="shape shape-q1"></div>
+            <div class="shape shape-q2"></div>
+        </div>
+        <div class="section-header">
+            <span class="section-tag">The quiz</span>
+            <h2 class="section-title">Let's Get<br>Purrrsonal</h2>
+            <p class="section-desc">10 questions. No wrong answers. Some chaos.</p>
+        </div>
+        <div class="quiz-container" id="quiz-container">
+            <div class="quiz-progress">
+                <div class="quiz-progress-bar" id="quiz-progress-bar"></div>
+            </div>
+            <div class="quiz-question-wrapper" id="quiz-question-wrapper">
+                <!-- Filled by JS -->
+            </div>
+            <div class="quiz-counter" id="quiz-counter"></div>
+        </div>
+    </section>
+
+    <!-- RESULT -->
+    <section id="result" class="result hidden">
+        <div class="result-bg-shapes">
+            <div class="shape shape-r1"></div>
+            <div class="shape shape-r2"></div>
+            <div class="shape shape-r3"></div>
+        </div>
+        <div class="result-content" id="result-content">
+            <!-- Filled by JS -->
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <span class="footer-logo">🐾 Purrsonality</span>
+            <span class="footer-text">Made with 😻 and questionable life choices</span>
+            <span class="footer-text">No cats were harmed in the making of this quiz</span>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
